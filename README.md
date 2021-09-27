@@ -1,2 +1,3 @@
 # curso-practico-javascript
-Codigo del curso de platzi practico de javascript,
+
+curso practico de javascript por platzi una practica realizada para aprender mas a cerca de javascript practico
