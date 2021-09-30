@@ -7,13 +7,42 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>
-        Figuras Geometricas
-    </h1>
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1>
+        <p>Este es el primer taller del curso practico de JavaScript</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="inputCuadrado">
+                ¿Cuanto mide los lados de tu cuadrado?:
+            </label>
+            <input id="inputCuadrado" type="number"  />
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button> 
+            <!-- onclick es para decirle a que funcion va a ir a recorrer una vez se le de click -->
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un triangulo</h2>
+        <form action="">
+            <label for="inputtriangulo">
+                ¿Cuanto mide los lados de tu triangulo?:
+            </label>
+            <input id="inputLadoTriangulo" type="number" placeholder="lado 1" />
+            <input id="inputLadoTriangulo2" type="number" placeholder="lado 2" />
+            <input id="inputBaseTriangulo" type="number" placeholder="Base"  />
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button> 
+            <!-- onclick es para decirle a que funcion va a ir a recorrer una vez se le de click -->
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+        </form>
+    </section>
 
 
     <!-- Vincular js -->
-    <script src="./figuras-geometricas.js">
+    <script src="./encapsulando-funciones.js">
 
     </script>
 </body>
