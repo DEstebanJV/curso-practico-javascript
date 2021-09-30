@@ -9,3 +9,10 @@ curso practico de javascript por platzi una practica realizada para aprender mas
 - Segundo paso: implementar las formulas en js
 - Tercero paso: Crear Funciones 
 - Cuarto Paso: Integrar js con html
+
+## Taller #2: Porcentajes y descuentos
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar las formulas en js
+- Tercero paso: Crear Funciones 
+- Cuarto Paso: Integrar js con html

@@ -31,12 +31,25 @@
             <label for="inputtriangulo">
                 ¿Cuanto mide los lados de tu triangulo?:
             </label>
-            <input id="inputLadoTriangulo" type="number" placeholder="lado 1" />
+            <input id="inputLadoTriangulo1" type="number" placeholder="lado 1" />
             <input id="inputLadoTriangulo2" type="number" placeholder="lado 2" />
             <input id="inputBaseTriangulo" type="number" placeholder="Base"  />
+            <input id="inputAlturaTriangulo" type="number" placeholder="Altura"  />
             <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button> 
             <!-- onclick es para decirle a que funcion va a ir a recorrer una vez se le de click -->
             <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un Circulo</h2>
+        <form action="">
+            <label for="inputRadio">
+                ¿Cuanto mide el radio de tu circulo?:
+            </label>
+            <input id="inputRadio" type="number" placeholder="Radio" />
+            <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button> 
+            <!-- onclick es para decirle a que funcion va a ir a recorrer una vez se le de click -->
+            <button type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
         </form>
     </section>
 

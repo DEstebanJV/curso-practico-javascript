@@ -95,6 +95,7 @@ console.groupEnd();
 
 
 /* Conectandonos a html */
+/* Cuadrado */
 
 function calcularPerimetroCuadrado(){
  const input = document.getElementById("inputCuadrado"); // traer un elemento de html a js
@@ -109,4 +110,49 @@ function calcularAreaCuadrado(){
  const value = input.value; //obtener el valor y guardarlo en una variable
  const area = areaCuadrado(value);
  alert(area);
+}
+
+/* triangulo */
+
+function calcularPerimetroTriangulo(){
+    const lado1 = Number(document.getElementById("inputLadoTriangulo1").value); // manera practica corta de hacer lo de abajo
+    //const valorLado1 = lado1.value;
+    //const numberlado1 = parseInt(Lado1, 10);  OTRA Manera de convertir a numero
+    const lado2 = Number(document.getElementById("inputLadoTriangulo2").value);
+    //const valorLado2 = lado2.value;
+    //const numberLado2 = parseInt(valorLado2, 10)
+    const base = Number(document.getElementById("inputBaseTriangulo").value);
+    //const valorBase = base.value;
+    // const numberBase = parseInt(valorBase, 10);
+
+    const perimetro = perimetroTriangulo(lado1, lado2, base);
+
+    alert(perimetro);
+}
+
+function calcularAreaTriangulo(){
+    const altura = Number(document.getElementById("inputAlturaTriangulo").value); // manera practica corta de hacer lo de abajo
+    //const valorLado1 = lado1.value;
+    //const numberlado1 = parseInt(Lado1, 10);  OTRA Manera de convertir a numero
+    const base = Number(document.getElementById("inputBaseTriangulo").value);
+    //const valorBase = base.value;
+    // const numberBase = parseInt(valorBase, 10);
+
+    const perimetro =areaTriangulo(base, altura);
+
+    alert(perimetro);
+}
+
+/* CIRCULO */
+
+function calcularPerimetroCirculo(){
+    const radio = Number(document.getElementById("inputRadio").value);    
+    const perimetro = perimetroCirculo(radio);
+    alert(perimetro);
+}
+
+function calcularAreaCirculo(){
+    const radio = Number(document.getElementById("inputRadio").value);    
+    const perimetro = areaCirculo(radio);
+    alert(perimetro);
 }
